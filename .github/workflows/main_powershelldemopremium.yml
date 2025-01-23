@@ -30,7 +30,7 @@ jobs:
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_FFB9EC4C2B294A8690208D091097D38F }}
 
       - name: 'Run Azure Functions Action'
-        uses: Azure/functions-action@v1
+        uses: Azure/functions-action@v1.5.2
         id: fa
         with:
           app-name: 'powershelldemopremium'
